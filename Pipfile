@@ -1,0 +1,9 @@
+[packages]
+jupyter = "*"
+pandas = "*"
+requests = "*"
+matplotlib = "*"
+tika = "*"
+
+[requires]
+python_version = "3.7"
