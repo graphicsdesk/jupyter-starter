@@ -3,5 +3,5 @@ data:
 	git clone https://github.com/spec-journalism/starter.git
 	mv starter/* .
 	mv starter/.gitignore .
-	rm -rf starter Makefile
+	rm -rf starter Makefile Pipfile.lock
 	pipenv install
