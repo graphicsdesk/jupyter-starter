@@ -4,4 +4,4 @@ data:
 	mv starter/* .
 	mv starter/.gitignore .
 	rm -rf starter Makefile
-	pipenv install Pipfile
+	pipenv install
