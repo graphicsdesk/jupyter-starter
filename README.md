@@ -1,6 +1,6 @@
-# Data starter template
+# Data Starter
 
-A starter template for data analysis projects.
+A starter template for data projects.
 
 ## Setup
 
