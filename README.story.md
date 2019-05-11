@@ -1,3 +1,3 @@
-# Project Title
+# Title
 
-Project description.
+Reporting objectives, special setup instructions, etc.
