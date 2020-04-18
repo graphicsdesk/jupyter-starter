@@ -17,7 +17,9 @@ $ degit graphicsdesk/jupyter-starter
 $ mv README.story.md README.md
 ```
 
-3. Initialize the repository and commit the starter code:
+3. Run `pipenv install`, which installs all the packages listed in `Pipfile` (a file that keeps track of all the packages we want.)
+
+4. Initialize the repository and commit the starter code:
 
 ```sh
 $ git init
@@ -25,7 +27,7 @@ $ git add .
 $ git commit -m 'notebook starter scaffold'
 ```
 
-4. Create a new repository in the `graphicsdesk` organization. Add the remote link, and push up your local repository:
+5. Create a new repository in the `graphicsdesk` organization. Add the remote link, and push up your local repository:
 
 <pre>
 $ git remote add origin git@github.com:graphicsdesk/<var>REPOSITORY_NAME</var>.git
