@@ -1,6 +1,4 @@
-# Data Starter
-
-A starter template for data projects.
+A scaffold for data projects with Jupyter Notebook.
 
 ## Prerequisites
 
@@ -12,24 +10,29 @@ A starter template for data projects.
 
 1. Make a new directory for your project and [`cd`](http://linuxcommand.org/lc3_man_pages/cdh.html) into it.
 
-2. Copy the project and initialize the repository
+2. Copy the scaffold into the directory:
 
 ```sh
 $ degit graphicsdesk/jupyter-starter
 $ mv README.story.md README.md
-$ git init
 ```
 
-3. Create a new repository in the `graphicsdesk` organization with the same name. Add the remote link:
+3. Initialize the repository and commit the starter code:
+
+```sh
+$ git init
+$ git add .
+$ git commit -m 'notebook starter scaffold'
+```
+
+3. Create a new repository in the `graphicsdesk` organization. Add the remote link:
 
 <pre>
 $ git remote add origin git@github.com:graphicsdesk/<var>REPOSITORY_NAME</var>.git
 </pre>
 
-4. Add, commit, push:
+4. Push it up:
 
 ```sh
-$ git add .
-$ git commit -m 'first commit'
 $ git push
 ```
