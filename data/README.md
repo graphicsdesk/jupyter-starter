@@ -1,6 +1,10 @@
-# Data files
+# Data Diary
 
-### `example.csv`
+[Best practices for keeping a data diary.](https://www.dropbox.com/s/uwu6ingzbmh1wt5/Data%20Diary%20%23NICAR20%20Tipsheet.pdf?dl=0)
+
+## Files
+
+#### `filename`
 
 * **What is this?** A short description of the data set.
 * **Source(s):** Links to your sources.

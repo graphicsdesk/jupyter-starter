@@ -2,11 +2,34 @@
 
 A starter template for data projects.
 
+## Prerequisites
+
+1. Make sure you have completed all the [Spectate prerequisites](https://github.com/graphicsdesk/spectate#prerequisites).
+
+2. Install [degit](https://github.com/Rich-Harris/degit).
+
 ## Setup
 
-1. Make sure you have [pipenv](https://pipenv.readthedocs.io/en/latest/) installed.
-2. Make a new directory (`mkdir my-project`) and `cd` into it.
-3. Run `curl -Lk https://bit.ly/2FfWVGM > Makefile; make;`
-4. Run `pipenv shell` to start a virtual environment. (Here's a [primer](https://realpython.com/python-virtual-environments-a-primer/) if you're unfamiliar with virtualenv.)
-5. Run `jupyter notebook` to start the Jupyter Notebook server. A new window should appear. Navigate to `./notebooks/starter.ipynb`.
-6. Start coding!
+1. Make a new directory for your project and [`cd`](http://linuxcommand.org/lc3_man_pages/cdh.html) into it.
+
+2. Copy the project and initialize the repository
+
+```sh
+$ degit graphicsdesk/jupyter-starter
+$ mv README.story.md README.md
+$ git init
+```
+
+3. Create a new repository in the `graphicsdesk` organization with the same name. Add the remote link:
+
+<pre>
+$ git remote add origin git@github.com:graphicsdesk/<var>REPOSITORY_NAME</var>.git
+</pre>
+
+4. Add, commit, push:
+
+```sh
+$ git add .
+$ git commit -m 'first commit'
+$ git push
+```
