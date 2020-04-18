@@ -25,14 +25,9 @@ $ git add .
 $ git commit -m 'notebook starter scaffold'
 ```
 
-3. Create a new repository in the `graphicsdesk` organization. Add the remote link:
+3. Create a new repository in the `graphicsdesk` organization. Add the remote link, and push up your local repository:
 
 <pre>
 $ git remote add origin git@github.com:graphicsdesk/<var>REPOSITORY_NAME</var>.git
-</pre>
-
-4. Push it up:
-
-```sh
 $ git push
-```
+</pre>
