@@ -1,4 +1,4 @@
-A scaffold for data projects with Jupyter Notebook.
+A scaffold for data projects with the [Jupyter Notebook](https://www.youtube.com/watch?v=jZ952vChhuI).
 
 ## Prerequisites
 
@@ -25,7 +25,7 @@ $ git add .
 $ git commit -m 'notebook starter scaffold'
 ```
 
-3. Create a new repository in the `graphicsdesk` organization. Add the remote link, and push up your local repository:
+4. Create a new repository in the `graphicsdesk` organization. Add the remote link, and push up your local repository:
 
 <pre>
 $ git remote add origin git@github.com:graphicsdesk/<var>REPOSITORY_NAME</var>.git

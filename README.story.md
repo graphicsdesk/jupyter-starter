@@ -10,9 +10,9 @@
 
 1. Clone this repository and `cd` into the directory.
 
-2. Run `pipenv install` to install all the packages listed in the `Pipfile`. (The Pipfile is a file in this repository that keeps track of all the packages we want.)
+2. Run `pipenv install jupyter`. This should create a `Pipfile`, which keeps track of all the packages we use.
 
-3. Run `pipenv shell` to start a "virtual environment" (basically a shell within your existing shell) in your terminal that lets you access the installed packages.
+3. Run `pipenv shell` to start the virtual environment (basically a shell within your existing shell that lets you access the installed packages).
 
 4. We will be using Jupyter Notebooks to do this analysis. If you haven't used Jupyter Notebooks before, I recommend watching [this short introduction](https://www.youtube.com/watch?v=jZ952vChhuI).
 
